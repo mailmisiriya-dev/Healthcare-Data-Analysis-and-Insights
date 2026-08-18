@@ -1,19 +1,11 @@
-# Healthcare-Data-Analysis-and-Insights
+#healthcare-data-analysis-excel
 Excel project analyzing patient health and hospitalization data, data cleaning, transformation, pivot tables, and an interactive dashboard with slicers.
-
-Healthcare Data Analysis & Insights — Excel
+#Healthcare Data Analysis & Insights — Excel
 About This Project
 This project analyzes a healthcare dataset spanning medical examinations, hospitalization records, and customer profiles, using Excel to clean, transform, and combine the data into a single analytical view. The goal is to surface relationships between patient health metrics — BMI, HbA1C, smoking, transplant history — and healthcare costs, then present them through an interactive dashboard.
 
-Problem Statement
+##Problem Statement
 Healthcare providers and policymakers generate vast amounts of patient data daily, but raw data alone doesn't drive better decisions. This project cleans and consolidates medical examination, hospitalization, and customer data to extract insights into patient health profiles, medical histories, and healthcare costs — enabling more informed, data-backed decisions on patient care and cost management.
-
-Dataset Summary
-Property	Value
-Source Tables	Customer Names, Medical Examinations, Hospitalisation Details
-Combined Records	2,335 patients
-Join Key	Customer ID (via VLOOKUP)
-Final Sheet	"Healthcare" — 17 consolidated columns
 Stage 1 — Data Cleaning
 Missing value audit: Counted values marked ? across the Medical Examinations and Hospitalisation Details tables
 Month/Year imputation: Missing month filled with "Sep"; missing year filled with the average year, rounded to the nearest integer
@@ -54,13 +46,3 @@ Interactive Dashboard:
 
 Consolidates all six visualizations onto a single "HEALTHCARE DASHBOARD" sheet
 Slicers for Weight Status and Diabetes Status filter all charts simultaneously, enabling cross-comparison of health outcomes and cost
-Files in This Repository
-File	Description
-Healthcare_Analysis.xlsx	Final workbook — raw tables, cleaning/transformation, combined Healthcare sheet, PivotTables, and Dashboard
-README.md	Project documentation
-Tools Used
-Tool	Role
-Microsoft Excel	Data cleaning, transformation, formulas
-VLOOKUP	Merging three source tables into one
-PivotTables	Aggregating data for each chart
-Excel Charts & Slicers	Visualization and interactive dashboard filtering
